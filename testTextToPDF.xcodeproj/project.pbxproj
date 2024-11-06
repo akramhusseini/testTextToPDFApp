@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		EAA5FA702CDBAB5D0015EF47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAA5FA572CDBAB5B0015EF47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAA5FA5E2CDBAB5B0015EF47;
+			remoteInfo = testTextToPDF;
+		};
+		EAA5FA7A2CDBAB5D0015EF47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAA5FA572CDBAB5B0015EF47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAA5FA5E2CDBAB5B0015EF47;
+			remoteInfo = testTextToPDF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAA5FA5F2CDBAB5B0015EF47 /* testTextToPDF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testTextToPDF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA5FA6F2CDBAB5D0015EF47 /* testTextToPDFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTextToPDFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA5FA792CDBAB5D0015EF47 /* testTextToPDFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTextToPDFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EAA5FA612CDBAB5B0015EF47 /* testTextToPDF */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = testTextToPDF;
+			sourceTree = "<group>";
+		};
+		EAA5FA722CDBAB5D0015EF47 /* testTextToPDFTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = testTextToPDFTests;
+			sourceTree = "<group>";
+		};
+		EAA5FA7C2CDBAB5D0015EF47 /* testTextToPDFUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = testTextToPDFUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAA5FA5C2CDBAB5B0015EF47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA5FA6C2CDBAB5D0015EF47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA5FA762CDBAB5D0015EF47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAA5FA562CDBAB5B0015EF47 = {
+			isa = PBXGroup;
+			children = (
+				EAA5FA612CDBAB5B0015EF47 /* testTextToPDF */,
+				EAA5FA722CDBAB5D0015EF47 /* testTextToPDFTests */,
+				EAA5FA7C2CDBAB5D0015EF47 /* testTextToPDFUITests */,
+				EAA5FA602CDBAB5B0015EF47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAA5FA602CDBAB5B0015EF47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAA5FA5F2CDBAB5B0015EF47 /* testTextToPDF.app */,
+				EAA5FA6F2CDBAB5D0015EF47 /* testTextToPDFTests.xctest */,
+				EAA5FA792CDBAB5D0015EF47 /* testTextToPDFUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAA5FA5E2CDBAB5B0015EF47 /* testTextToPDF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA5FA832CDBAB5E0015EF47 /* Build configuration list for PBXNativeTarget "testTextToPDF" */;
+			buildPhases = (
+				EAA5FA5B2CDBAB5B0015EF47 /* Sources */,
+				EAA5FA5C2CDBAB5B0015EF47 /* Frameworks */,
+				EAA5FA5D2CDBAB5B0015EF47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EAA5FA612CDBAB5B0015EF47 /* testTextToPDF */,
+			);
+			name = testTextToPDF;
+			packageProductDependencies = (
+			);
+			productName = testTextToPDF;
+			productReference = EAA5FA5F2CDBAB5B0015EF47 /* testTextToPDF.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAA5FA6E2CDBAB5D0015EF47 /* testTextToPDFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA5FA862CDBAB5E0015EF47 /* Build configuration list for PBXNativeTarget "testTextToPDFTests" */;
+			buildPhases = (
+				EAA5FA6B2CDBAB5D0015EF47 /* Sources */,
+				EAA5FA6C2CDBAB5D0015EF47 /* Frameworks */,
+				EAA5FA6D2CDBAB5D0015EF47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAA5FA712CDBAB5D0015EF47 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EAA5FA722CDBAB5D0015EF47 /* testTextToPDFTests */,
+			);
+			name = testTextToPDFTests;
+			packageProductDependencies = (
+			);
+			productName = testTextToPDFTests;
+			productReference = EAA5FA6F2CDBAB5D0015EF47 /* testTextToPDFTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EAA5FA782CDBAB5D0015EF47 /* testTextToPDFUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA5FA892CDBAB5E0015EF47 /* Build configuration list for PBXNativeTarget "testTextToPDFUITests" */;
+			buildPhases = (
+				EAA5FA752CDBAB5D0015EF47 /* Sources */,
+				EAA5FA762CDBAB5D0015EF47 /* Frameworks */,
+				EAA5FA772CDBAB5D0015EF47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAA5FA7B2CDBAB5D0015EF47 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EAA5FA7C2CDBAB5D0015EF47 /* testTextToPDFUITests */,
+			);
+			name = testTextToPDFUITests;
+			packageProductDependencies = (
+			);
+			productName = testTextToPDFUITests;
+			productReference = EAA5FA792CDBAB5D0015EF47 /* testTextToPDFUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAA5FA572CDBAB5B0015EF47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					EAA5FA5E2CDBAB5B0015EF47 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					EAA5FA6E2CDBAB5D0015EF47 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = EAA5FA5E2CDBAB5B0015EF47;
+					};
+					EAA5FA782CDBAB5D0015EF47 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = EAA5FA5E2CDBAB5B0015EF47;
+					};
+				};
+			};
+			buildConfigurationList = EAA5FA5A2CDBAB5B0015EF47 /* Build configuration list for PBXProject "testTextToPDF" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAA5FA562CDBAB5B0015EF47;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EAA5FA602CDBAB5B0015EF47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAA5FA5E2CDBAB5B0015EF47 /* testTextToPDF */,
+				EAA5FA6E2CDBAB5D0015EF47 /* testTextToPDFTests */,
+				EAA5FA782CDBAB5D0015EF47 /* testTextToPDFUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAA5FA5D2CDBAB5B0015EF47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA5FA6D2CDBAB5D0015EF47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA5FA772CDBAB5D0015EF47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAA5FA5B2CDBAB5B0015EF47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA5FA6B2CDBAB5D0015EF47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA5FA752CDBAB5D0015EF47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAA5FA712CDBAB5D0015EF47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAA5FA5E2CDBAB5B0015EF47 /* testTextToPDF */;
+			targetProxy = EAA5FA702CDBAB5D0015EF47 /* PBXContainerItemProxy */;
+		};
+		EAA5FA7B2CDBAB5D0015EF47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAA5FA5E2CDBAB5B0015EF47 /* testTextToPDF */;
+			targetProxy = EAA5FA7A2CDBAB5D0015EF47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EAA5FA812CDBAB5E0015EF47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAA5FA822CDBAB5E0015EF47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAA5FA842CDBAB5E0015EF47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"testTextToPDF/Preview Content\"";
+				DEVELOPMENT_TEAM = DZPDU2NG5L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.utility.testTextToPDF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAA5FA852CDBAB5E0015EF47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"testTextToPDF/Preview Content\"";
+				DEVELOPMENT_TEAM = DZPDU2NG5L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.utility.testTextToPDF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EAA5FA872CDBAB5E0015EF47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DZPDU2NG5L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.utility.testTextToPDFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testTextToPDF.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/testTextToPDF";
+			};
+			name = Debug;
+		};
+		EAA5FA882CDBAB5E0015EF47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DZPDU2NG5L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.utility.testTextToPDFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testTextToPDF.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/testTextToPDF";
+			};
+			name = Release;
+		};
+		EAA5FA8A2CDBAB5E0015EF47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DZPDU2NG5L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.utility.testTextToPDFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = testTextToPDF;
+			};
+			name = Debug;
+		};
+		EAA5FA8B2CDBAB5E0015EF47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DZPDU2NG5L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.utility.testTextToPDFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = testTextToPDF;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAA5FA5A2CDBAB5B0015EF47 /* Build configuration list for PBXProject "testTextToPDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA5FA812CDBAB5E0015EF47 /* Debug */,
+				EAA5FA822CDBAB5E0015EF47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA5FA832CDBAB5E0015EF47 /* Build configuration list for PBXNativeTarget "testTextToPDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA5FA842CDBAB5E0015EF47 /* Debug */,
+				EAA5FA852CDBAB5E0015EF47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA5FA862CDBAB5E0015EF47 /* Build configuration list for PBXNativeTarget "testTextToPDFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA5FA872CDBAB5E0015EF47 /* Debug */,
+				EAA5FA882CDBAB5E0015EF47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA5FA892CDBAB5E0015EF47 /* Build configuration list for PBXNativeTarget "testTextToPDFUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA5FA8A2CDBAB5E0015EF47 /* Debug */,
+				EAA5FA8B2CDBAB5E0015EF47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAA5FA572CDBAB5B0015EF47 /* Project object */;
+}
