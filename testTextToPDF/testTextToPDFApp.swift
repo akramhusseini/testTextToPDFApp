@@ -11,7 +11,7 @@ import SwiftUI
 struct testTextToPDFApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TestTextToPDFAppView()
         }
     }
 }
